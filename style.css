@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:ital,wght@0,600;0,700;1,500;1,600&display=swap');
+
+
+
+body{
+    margin: 0;
+    font-family: poppins;
+    background: #ececec;
+    
+    text-align: center;
+    padding: 50px 100px;
+    justify-content: center;
+    background: url(https://source.unsplash.com/1600x900/?beach,hill) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.title{
+    font-size: 3em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    font-family: poppins;
+    letter-spacing: 1px;
+    
+}
+
+
+#container{
+    text-align: center;
+    /* background-color: #1abc9c; */
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: transparent; */
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px black;
+}
+.input-div{
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+.celsius{
+    height: 100%;
+    background-image: linear-gradient(120deg,#9055ff,#13e2da);
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 8px 8px 20px black;
+}
+
+
+.fahrenheit{
+    height: 100%;
+    background-image: linear-gradient(120deg,#5efceb,#736efe);
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 8px 8px 20px black;
+}
+
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    outline: none;
+}
+label{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 650px){
+    body{
+        padding: 12px;
+    }
+    .title{
+        font-size: 25px;
+        margin-bottom: 19px;
+        
+    }
+    #container{
+        padding: 25px;
+        
+    }
+    .celsius{
+        
+        padding: 11px;
+        margin: 8px;
+        
+    }
+    .fahrenheit{
+        padding: 11px;
+        margin: 8px;
+        
+    }
+    .inp{
+        padding: 2px 5px;
+        margin: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        width: 120px;
+        flex-basis: 100%;
+        
+    }
+    label{
+        font-size: 16px;
+        
+    }
+    
+}
+
