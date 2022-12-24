@@ -6,10 +6,11 @@ body{
     margin: 0;
     font-family: poppins;
     background: #ececec;
-    
+    height: 100vh;
     text-align: center;
     padding: 50px 100px;
     justify-content: center;
+    align-items: center;
     background: url(https://source.unsplash.com/1600x900/?beach,hill) no-repeat;
     background-size: cover;
     background-position: center; 
@@ -74,41 +75,24 @@ label{
 
 @media (max-width: 650px){
     body{
-        padding: 12px;
+        padding: 30px 40px;
+        justify-content: center;
+        align-items: center;
     }
     .title{
-        font-size: 25px;
+        font-size: 2em;
         margin-bottom: 19px;
         
     }
-    #container{
-        padding: 25px;
-        
-    }
-    .celsius{
-        
-        padding: 11px;
-        margin: 8px;
-        
-    }
-    .fahrenheit{
-        padding: 11px;
-        margin: 8px;
-        
-    }
+    
     .inp{
         padding: 2px 5px;
         margin: 5px;
-        font-size: 10px;
-        font-weight: 600;
+        font-size: 20px;
         width: 120px;
-        flex-basis: 100%;
-        
     }
     label{
-        font-size: 16px;
-        
+        font-size: 19px;
     }
-    
 }
 
